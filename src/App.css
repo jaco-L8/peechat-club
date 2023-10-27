@@ -42,3 +42,10 @@ p {
   padding: 0;
   color: var(--text);
 } 
+
+.Test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
