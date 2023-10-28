@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './header.js';
-import Testcomp from './testcomp.js';
+import Bento from './bentoBox.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
 
-      <Testcomp />
+      <Bento />
     </div>
   );
 }
