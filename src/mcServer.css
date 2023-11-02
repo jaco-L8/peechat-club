@@ -64,3 +64,84 @@
 .clipBoard-click img:hover {
     transform: translateY(-0.2rem);
 }
+
+.mcServer-text {
+    margin-top: 3rem;
+    color: var(--text);
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.mcServer-steps {
+    background: linear-gradient(to bottom, var(--secondary), var(--background));
+    border-radius: 10px;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: fit-content;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.mcServer-steps ol {
+    list-style-type:none;
+    counter-reset: step-counter;
+}
+
+.mcServer-steps ol li {
+    position: relative;
+    counter-increment: step-counter;
+    margin-bottom: 1rem;
+    color: var(--text);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.mcServer-steps ol li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: -2rem;
+    color: var(--accent); 
+    font-size: 2rem; 
+    font-weight: bold;
+    transform: translateY(0.5rem);
+}
+
+.mcServer-steps ol li a {
+    color: var(--accent);
+}
+
+.mcServer-steps ol li button {
+    background: none;
+    border-color: var(--text);
+    border-width: 0.2rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2rem;
+    transform: translateY(-0.5rem);
+}
+
+.fun-text {
+    background: linear-gradient(90deg, purple, var(--accent));
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
