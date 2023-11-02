@@ -14,7 +14,7 @@ function bento() {
                         </div>
                     </div>
                 </div>
-                <div className="T2 content"> <img src={ppBounce} alt="ppBounce"/> <p>W.I.P</p> </div>
+                <div className="T2 content"> <img src={ppBounce} alt="ppBounce"/> <p>W.I.P</p> </div> 
         </div>
     )
 }
