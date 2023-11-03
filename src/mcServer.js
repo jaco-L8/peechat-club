@@ -2,7 +2,6 @@ import React from 'react';
 import './mcServer.css';
 import Divider from './Divider.js';
 import Clipboard from './clipboard-copy.svg';
-import modsZip from './mods-peechat-V1.zip';
 
 function mcServer() {
     const serverIP = "mc.peechat.club";
@@ -42,7 +41,10 @@ function mcServer() {
                             </li>
                             <li>
                                <p> Download the mods 
-                                <a href={modsZip} download><button> Download mods V1.0</button></a> </p>
+                                    <a href="https://drive.google.com/drive/folders/1riL4-mzK5-NzNGD6N1c2sPzvK5Xr3RuB?usp=sharing" target='_blank' rel="noreferrer">
+                                        <button> Download mods V1.0</button>
+                                    </a>
+                                </p>
                             </li>
                             <li>
                                <p> Unzip and place the mods in the 'mods' folder </p>
