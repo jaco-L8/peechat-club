@@ -1,9 +1,6 @@
 
 @import 'variables.css';
 
-.mcServer {
-
-}
 
 
 .mcServer-title {
@@ -17,6 +14,18 @@
     margin-bottom: 0.5rem;
     margin-left: 1rem;
 }
+
+.mcServer-subtitle {
+    background-image: linear-gradient(-45deg, var(--secondary), var(--text));
+    background-size: 50%;
+    background-clip: text;
+    text-align: left;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
 
 .Server-IP-container {
     display: flex;

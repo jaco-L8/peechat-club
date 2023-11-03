@@ -11,7 +11,7 @@ function App() {
 
       <Bento />
 
-      <Divider marginTop="10rem" marginBottom="5rem" width='50%' align='center' />
+      <Divider marginTop="10rem" marginBottom="20rem" width='50%' align='center' />
 
       <Mcinfo />
     </div>
